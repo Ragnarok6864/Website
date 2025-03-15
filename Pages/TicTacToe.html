@@ -1,0 +1,53 @@
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <link rel="icon" type="image/x-icon" href="../Images/ToucanMinionBuff.png">
+    <script>
+        function randx(){
+            min = 0;
+            max = window.innerWidth-256;
+            return Math.random() * (max - min) + min;
+        }
+        function randy(){
+            min = 0;
+            max = window.innerHeight-256;
+            return Math.random() * (max - min) + min;
+        }
+        function annoy() {
+                const key = document.getElementById("key");
+                const cover = document.getElementById("cover");
+                xv = randx();
+                yv = randy();
+                key.style.left = xv + 'px';
+                key.style.top = yv + 'px';
+                cover.style.left = xv + 'px';
+                cover.style.top = yv + 'px';
+        }
+        function dup(){
+            const sus = document.getElementById("sus");
+            sus.style.position = "fixed";
+            const clonesus = sus.cloneNode();
+            document.body.appendChild(clonesus);
+        }
+        
+
+    </script>
+</head>
+
+<header> <a href="../Index.html" style="text-decoration: none"><p style="align-self: center;margin:5px;">My Portfolio</p></a><img src="/Images/ToucanMinionBuff.png" style="width:46px;height:46px;align-self: center;"></header>
+<div id="Banner"><a href="AboutMe.html" id="tabs"><h3>About Me</h3></a><a href="TicTacToe.html" id="tabs"><h3>TicTacToe</h3></a><a href="Sus.html" id="tabs"><h3>?</h3></a><a href="Games.html" id="tabs"><h3>Game Overviews</h3></a></div>  
+<body>
+    <div id="key" style="background-color:fuchsia; width:256px;height:256px;align-self: center; position:fixed; x: 0px; y: 0px;">
+        <p>Hello World</p>
+    </div>
+    <img id="cover" onclick="annoy()"src="/Images/ToucanMinionBuff.png" style="width:256px;height:256px;align-self: center; position:fixed; x: 0px; y: 0px;">
+    <div id="main" style="background-color: black; justify-self: center; width: 100%; height: 100%;justify-content: center; text-align: center;">
+        <p> Don't Poke me</p>
+        
+        
+        <p> Don't Poke me</p>
+        <p> Don't Poke me</p>
+        <p> Don't Poke me</p>
+        <p> Don't Poke me</p>
+    </div>
+</body>

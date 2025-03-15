@@ -1,0 +1,21 @@
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../styles.css"/>
+    <link rel="icon" type="image/x-icon" href="../Images/ToucanMinionBuff.png">
+</head>
+
+<header> <a href="../Index.html" style="text-decoration: none"><p style="align-self: center;margin:5px;">My Portfolio</p></a><img src="/Images/ToucanMinionBuff.png" style="width:46px;height:46px;align-self: center;"></header>
+<div id="Banner"><a href="AboutMe.html" id="tabs"><h3>About Me</h3></a><a href="TicTacToe.html" id="tabs"><h3>TicTacToe</h3></a><a href="Sus.html" id="tabs"><h3>?</h3></a><a href="./Games.html" id="tabs"><h3>Game Overviews</h3></a></div>  
+<body>
+    <div id="main" style="display: flex">
+    <div style="align-self: center; justify-self:center; display:flex">
+        <iframe style="align-self: center;justify-self: center;" id="gamecanvas" src="https://i.simmer.io/@Ragnarok/kitten-tower-defence" width="960" height="600" allowfullscreen allow="geolocation; microphone; camera; midi; encrypted-media; gamepad; accelerometer; gyroscope; xr-spatial-tracking; clipboard-read; clipboard-write; cross-origin-isolated; autoplay"  referrerpolicy="strict-origin-when-cross-origin" frameborder="0"></iframe>
+        <table style="display:block; height: 600px; background-color: antiquewhite; font-size: 50px;">
+            <tr id="gameSelector"><td><button onclick="document.getElementById('gamecanvas').src='https\://i.simmer.io/@Ragnarok/kitten-tower-defence'">Kitten Tower Defense</button></td></tr>
+            <tr id="gameSelector"><td><button onclick="document.getElementById('gamecanvas').src='https\://i.simmer.io/@Ragnarok/operation-kris-kringle'">operation-kris-kringle</button></td></tr>
+            <tr id="gameSelector"><td><button onclick="document.getElementById('gamecanvas').src='https\://i.simmer.io/@Ragnarok/dog-wall'">Dog Wall</button></td></tr>
+            <tr id="gameSelector"><td><button onclick="document.getElementById('gamecanvas').src='https\://i.simmer.io/@Ragnarok/carbonade-blackout'">carbonade-blackout</button></td></tr>
+        </table>
+    </div>
+    </div>
+</body>

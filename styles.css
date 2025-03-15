@@ -1,0 +1,67 @@
+header {
+    margin: 0px;
+    background-color: aliceblue;
+    font-size: 50px;
+    padding-bottom: 0px;
+    height: 100px;
+    display: flex;
+}
+
+head {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Banner {
+    color: black;
+    background-color: blanchedalmond;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    display: flex;
+    font-size: 20px;
+}
+
+#tabs {
+    background-color: cadetblue;
+    width: 25%;
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+#gameSelector {
+    height: 150px;
+    
+}
+
+#gameSelector button{
+    width: 300px;
+    height: 150px;
+    font-size: large;
+}
+
+
+
+a:visited  {
+    color: blue;
+    text-decoration: none;
+}  
+
+
+body {
+    background-color: bisque;
+    color:blue;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#main {
+    padding: 10px;
+    align-self: center;
+}
+
+#sus {
+    width:256px;height:256px;align-self: center; position: fixed; x: 100px; y: 200px;
+}
